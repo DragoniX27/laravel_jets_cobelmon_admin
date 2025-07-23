@@ -1,0 +1,31 @@
+/* CONFIG_SECTION
+ * CobbleSpawners Configuration File
+ * 
+ * Global Config: Contains debug settings, culling options, and GUI display preferences.
+ * Spawner Data: Defines each spawner's position, spawn timing, radius, and visibility options.
+ * Pokemon Spawn Entry: Holds the settings for each Pokémon, including spawn chances, levels, sizes, and additional spawn details.
+ * 
+ * DO NOT MODIFY 'version' or 'configId' as these are used for configuration management.
+ * Version: 2.0.7
+ * Last updated: 2025-07-21T02:30:02.190062625
+ */
+{
+  // WARNING: Do not edit this value.
+  "version": "2.0.7",
+  // WARNING: Do not edit this value.
+  "configId": "cobblespawners",
+  // Global configuration options for CobbleSpawners.
+  "globalConfig": {
+    "debugEnabled": false,
+    "cullSpawnerPokemonOnServerStop": true,
+    "showUnimplementedPokemonInGui": false,
+    "showFormsInGui": true,
+    "showAspectsInGui": true
+  },
+  // List of spawner data entries.
+  "spawners": []
+}
+/*
+ * End of CobbleSpawners Configuration
+ * END_CONFIG_SECTION
+ */

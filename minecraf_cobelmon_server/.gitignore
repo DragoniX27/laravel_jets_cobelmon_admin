@@ -1,0 +1,38 @@
+# Ignorar archivos de logs
+logs/
+debug/
+crash-reports/
+*.log
+
+# Ignorar cachés y temporales
+usercache.json
+usernamecache.json
+session.lock
+
+# Ignorar configuraciones sensibles
+*.tmp
+*.bak
+
+# Archivos de administración
+banned-*.json
+ops.json
+whitelist.json
+
+# Ignorar datos de jugadores individuales (opcional)
+world/playerdata/
+world/advancements/
+world/stats/
+
+# Ignorar archivos binarios de mundo que cambian mucho (opcional)
+world/level.dat_old
+world/icon.png
+world/data/scoreboard.dat
+world/data/idcounts.dat
+
+# Permitir datapacks y configuración
+!world/datapacks/
+!world/
+mods/
+!config/
+!server.properties
+mods/*.jar

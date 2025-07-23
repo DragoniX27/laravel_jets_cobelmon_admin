@@ -1,0 +1,85 @@
+
+update
+|t:|1752876039
+|gametype|singles
+
+
+update
+|player|p1|ffd78b55-4d57-4367-afe8-0a3da95af8e2||
+
+
+sideupdate
+p1
+|request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":13,"maxpp":15,"target":"any","disabled":false},{"move":"Slash","id":"slash","pp":17,"maxpp":20,"target":"normal","disabled":false},{"move":"Fire Fang","id":"firefang","pp":5,"maxpp":15,"target":"normal","disabled":false},{"move":"Dragon Breath","id":"dragonbreath","pp":7,"maxpp":20,"target":"normal","disabled":false}],"canMegaEvo":true}],"side":{"name":"ffd78b55-4d57-4367-afe8-0a3da95af8e2","id":"p1","pokemon":[{"ident":"p1: Charizard","details":"Charizard, 0a34e329-2efc-4408-bada-ca07d261421b, M","condition":"299/299","active":true,"stats":{"atk":205,"def":172,"spa":257,"spd":206,"spe":328},"moves":["airslash","slash","firefang","dragonbreath"],"baseAbility":"blaze","item":"charizarditex","pokeball":"Master Ball","baseTypes":["Fire","Flying"],"types":["Fire","Flying"],"ability":"blaze","commanding":false,"reviving":false,"teraType":"fire","terastallized":""},{"ident":"p1: Sentret","details":"Sentret, 36ac142d-9728-4a24-85cf-7c259c81d771, L17, F","condition":"42/42","active":false,"stats":{"atk":24,"def":18,"spa":20,"spd":18,"spe":16},"moves":["quickattack","defensecurl","foresight","scratch"],"baseAbility":"keeneye","item":"","pokeball":"Master Ball","baseTypes":["Normal"],"types":["Normal"],"ability":"keeneye","commanding":false,"reviving":false,"teraType":"normal","terastallized":""},{"ident":"p1: Houndour","details":"Houndour, 56f61756-493d-4298-bfbf-3963b0cc062d, L31, M","condition":"76/76","active":false,"stats":{"atk":45,"def":27,"spa":61,"spd":39,"spe":50},"moves":["firefang","beatup","odorsleuth","bite"],"baseAbility":"flashfire","item":"","pokeball":"Master Ball","baseTypes":["Dark","Fire"],"types":["Dark","Fire"],"ability":"flashfire","commanding":false,"reviving":false,"teraType":"dark","terastallized":""},{"ident":"p1: Tetoeon","details":"Tetoeon, 6e85214d-d358-4eba-89f7-938905af2e6a, L10, M","condition":"33/33","active":false,"stats":{"atk":30,"def":20,"spa":32,"spd":21,"spe":25},"moves":["quickattack","sandattack","takedown","tailwhip"],"baseAbility":"owntempo","item":"","pokeball":"Master Ball","baseTypes":["Normal"],"types":["Normal"],"ability":"owntempo","commanding":false,"reviving":false,"teraType":"normal","terastallized":""},{"ident":"p1: Tetoeon","details":"Tetoeon, 23e0ae2c-b987-4add-b6cf-d83f9fa9e400, L10, M, shiny","condition":"33/33","active":false,"stats":{"atk":28,"def":20,"spa":32,"spd":18,"spe":26},"moves":["quickattack","sandattack","covet","growl"],"baseAbility":"owntempo","item":"","pokeball":"Master Ball","baseTypes":["Normal"],"types":["Normal"],"ability":"owntempo","commanding":false,"reviving":false,"teraType":"normal","terastallized":""},{"ident":"p1: Manaphy","details":"Manaphy, be8f5d71-4f90-42cc-bd52-c8d3c4087e15, L1","condition":"13/13","active":false,"stats":{"atk":7,"def":7,"spa":7,"spd":7,"spe":6},"moves":["watergun","heartswap","watersport","bubble"],"baseAbility":"hydration","item":"","pokeball":"Master Ball","baseTypes":["Water"],"types":["Water"],"ability":"hydration","commanding":false,"reviving":false,"teraType":"water","terastallized":""}]},"noCancel":true}
+
+Request Instruction
+
+sideupdate
+p2
+|request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":5,"target":"normal","disabled":false},{"move":"Take Down","id":"takedown","pp":20,"maxpp":20,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":15,"maxpp":15,"target":"normal","disabled":false},{"move":"Iron Head","id":"ironhead","pp":15,"maxpp":15,"target":"normal","disabled":false}],"canDynamax":true,"maxMoves":{"maxMoves":[{"move":"maxrockfall","target":"adjacentFoe"},{"move":"maxstrike","target":"adjacentFoe"},{"move":"maxdarkness","target":"adjacentFoe"},{"move":"maxsteelspike","target":"adjacentFoe"}]},"canTerastallize":"dragon"}],"side":{"name":"8d1d7e1a-b20b-47a5-b31e-090b3ebd930a","id":"p2","pokemon":[{"ident":"p2: Aerodactyl","details":"Aerodactyl, ba914353-6edc-4daf-8060-04679231cf83, L59, M","condition":"163/163","active":true,"stats":{"atk":128,"def":81,"spa":75,"spd":93,"spe":158},"moves":["stoneedge","takedown","crunch","ironhead"],"baseAbility":"rockhead","item":"","pokeball":"Poke Ball","baseTypes":["Rock","Flying"],"types":["Rock","Flying"],"ability":"rockhead","commanding":false,"reviving":false,"teraType":"dragon","terastallized":""}]},"noCancel":true}
+
+Request Instruction
+
+update
+|player|p2|8d1d7e1a-b20b-47a5-b31e-090b3ebd930a||
+|teamsize|p1|6
+|teamsize|p2|1
+|gen|9
+|tier|
+|
+|t:|1752876039
+|start
+|split|p1
+|switch|p1a: 0a34e329-2efc-4408-bada-ca07d261421b|Charizard, 0a34e329-2efc-4408-bada-ca07d261421b, M|299/299
+|switch|p1a: 0a34e329-2efc-4408-bada-ca07d261421b|Charizard, 0a34e329-2efc-4408-bada-ca07d261421b, M|100/100
+|split|p2
+|switch|p2a: ba914353-6edc-4daf-8060-04679231cf83|Aerodactyl, ba914353-6edc-4daf-8060-04679231cf83, L59, M|163/163
+|switch|p2a: ba914353-6edc-4daf-8060-04679231cf83|Aerodactyl, ba914353-6edc-4daf-8060-04679231cf83, L59, M|100/100
+|turn|1
+|pp_update|p1: 0a34e329-2efc-4408-bada-ca07d261421b|airslash: 13, slash: 17, firefang: 5, dragonbreath: 7
+|pp_update|p1: 36ac142d-9728-4a24-85cf-7c259c81d771|quickattack: 30, defensecurl: 40, foresight: 40, scratch: 35
+|pp_update|p1: 56f61756-493d-4298-bfbf-3963b0cc062d|firefang: 15, beatup: 10, odorsleuth: 40, bite: 25
+|pp_update|p1: 6e85214d-d358-4eba-89f7-938905af2e6a|quickattack: 30, sandattack: 15, takedown: 20, tailwhip: 30
+|pp_update|p1: 23e0ae2c-b987-4add-b6cf-d83f9fa9e400|quickattack: 30, sandattack: 15, covet: 25, growl: 40
+|pp_update|p1: be8f5d71-4f90-42cc-bd52-c8d3c4087e15|watergun: 25, heartswap: 10, watersport: 15, bubble: 30
+|pp_update|p2: ba914353-6edc-4daf-8060-04679231cf83|stoneedge: 5, takedown: 20, crunch: 15, ironhead: 15
+
+
+sideupdate
+p1
+|error|[Invalid choice] Can't choose for Team Preview: You're not in a Team Preview phase
+
+Error Instruction
+
+sideupdate
+p2
+|error|[Invalid choice] Can't choose for Team Preview: You're not in a Team Preview phase
+
+Error Instruction
+>p1 move 4 +1 mega
+>p2 move 1 +1
+
+update
+|
+|t:|1752876044
+|detailschange|p1a: 0a34e329-2efc-4408-bada-ca07d261421b|Charizard-Mega-X, 0a34e329-2efc-4408-bada-ca07d261421b, M
+|-mega|p1a: 0a34e329-2efc-4408-bada-ca07d261421b|Charizard|
+|move|p1a: 0a34e329-2efc-4408-bada-ca07d261421b|Dragon Breath|p2a: ba914353-6edc-4daf-8060-04679231cf83
+|split|p2
+|-damage|p2a: ba914353-6edc-4daf-8060-04679231cf83|0 fnt
+|-damage|p2a: ba914353-6edc-4daf-8060-04679231cf83|0 fnt
+|faint|p2a: ba914353-6edc-4daf-8060-04679231cf83
+|
+|win|ffd78b55-4d57-4367-afe8-0a3da95af8e2
+|pp_update|p1: 0a34e329-2efc-4408-bada-ca07d261421b|airslash: 13, slash: 17, firefang: 5, dragonbreath: 6
+|pp_update|p1: 36ac142d-9728-4a24-85cf-7c259c81d771|quickattack: 30, defensecurl: 40, foresight: 40, scratch: 35
+|pp_update|p1: 56f61756-493d-4298-bfbf-3963b0cc062d|firefang: 15, beatup: 10, odorsleuth: 40, bite: 25
+|pp_update|p1: 6e85214d-d358-4eba-89f7-938905af2e6a|quickattack: 30, sandattack: 15, takedown: 20, tailwhip: 30
+|pp_update|p1: 23e0ae2c-b987-4add-b6cf-d83f9fa9e400|quickattack: 30, sandattack: 15, covet: 25, growl: 40
+|pp_update|p1: be8f5d71-4f90-42cc-bd52-c8d3c4087e15|watergun: 25, heartswap: 10, watersport: 15, bubble: 30
+|pp_update|p2: ba914353-6edc-4daf-8060-04679231cf83|stoneedge: 5, takedown: 20, crunch: 15, ironhead: 15
+
+
+end
+{"winner":"ffd78b55-4d57-4367-afe8-0a3da95af8e2","seed":[50675,16993,62735,12917],"turns":1,"p1":"ffd78b55-4d57-4367-afe8-0a3da95af8e2","p2":"8d1d7e1a-b20b-47a5-b31e-090b3ebd930a","p1team":[{"name":"Charizard","species":"charizard","uuid":"0a34e329-2efc-4408-bada-ca07d261421b","currentHealth":299,"status":"","statusDuration":-1,"item":"Charizardite X","ability":"Blaze","moves":["Air Slash","Slash","Fire Fang","Dragon Breath"],"movesInfo":[{"pp":13,"maxPp":15},{"pp":17,"maxPp":20},{"pp":5,"maxPp":15},{"pp":7,"maxPp":20}],"nature":"Hasty","evs":{"hp":8,"atk":6,"def":2,"spa":13,"spd":0,"spe":252},"gender":"M","ivs":{"hp":31,"atk":31,"def":31,"spa":31,"spd":31,"spe":31},"level":100,"happiness":60,"pokeball":"Master Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"fire"},{"name":"Sentret","species":"sentret","uuid":"36ac142d-9728-4a24-85cf-7c259c81d771","currentHealth":42,"status":"","statusDuration":-1,"item":"","ability":"Keen Eye","moves":["Quick Attack","Defense Curl","Foresight","Scratch"],"movesInfo":[{"pp":30,"maxPp":30},{"pp":40,"maxPp":40},{"pp":40,"maxPp":40},{"pp":35,"maxPp":35}],"nature":"Lax","evs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"gender":"F","ivs":{"hp":23,"atk":23,"def":4,"spa":21,"spd":5,"spe":30},"level":17,"happiness":75,"pokeball":"Master Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"normal"},{"name":"Houndour","species":"houndour","uuid":"56f61756-493d-4298-bfbf-3963b0cc062d","currentHealth":76,"status":"","statusDuration":-1,"item":"","ability":"Flash Fire","moves":["Fire Fang","Beat Up","Odor Sleuth","Bite"],"movesInfo":[{"pp":15,"maxPp":15},{"pp":10,"maxPp":10},{"pp":40,"maxPp":40},{"pp":25,"maxPp":25}],"nature":"Modest","evs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"gender":"M","ivs":{"hp":26,"atk":31,"def":11,"spa":5,"spd":10,"spe":16},"level":31,"happiness":0,"pokeball":"Master Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"dark"},{"name":"Tetoeon","species":"tetoeon","uuid":"6e85214d-d358-4eba-89f7-938905af2e6a","currentHealth":33,"status":"","statusDuration":-1,"item":"","ability":"Own Tempo","moves":["Quick Attack","Sand Attack","Take Down","Tail Whip"],"movesInfo":[{"pp":30,"maxPp":30},{"pp":15,"maxPp":15},{"pp":20,"maxPp":20},{"pp":30,"maxPp":30}],"nature":"Bashful","evs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"gender":"M","ivs":{"hp":14,"atk":30,"def":22,"spa":19,"spd":30,"spe":16},"level":10,"happiness":50,"pokeball":"Master Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"normal"},{"name":"Tetoeon","species":"tetoeon","uuid":"23e0ae2c-b987-4add-b6cf-d83f9fa9e400","currentHealth":33,"status":"","statusDuration":-1,"item":"","ability":"Own Tempo","moves":["Quick Attack","Sand Attack","Covet","Growl"],"movesInfo":[{"pp":30,"maxPp":30},{"pp":15,"maxPp":15},{"pp":25,"maxPp":25},{"pp":40,"maxPp":40}],"nature":"Bashful","evs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"gender":"M","ivs":{"hp":12,"atk":18,"def":27,"spa":14,"spd":5,"spe":27},"shiny":true,"level":10,"happiness":50,"pokeball":"Master Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"normal"},{"name":"Manaphy","species":"manaphy","uuid":"be8f5d71-4f90-42cc-bd52-c8d3c4087e15","currentHealth":13,"status":"","statusDuration":-1,"item":"","ability":"Hydration","moves":["Water Gun","Heart Swap","Water Sport","Bubble"],"movesInfo":[{"pp":25,"maxPp":25},{"pp":10,"maxPp":10},{"pp":15,"maxPp":15},{"pp":30,"maxPp":30}],"nature":"Brave","evs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"gender":"N","ivs":{"hp":17,"atk":14,"def":20,"spa":21,"spd":15,"spe":8},"level":1,"happiness":50,"pokeball":"Master Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"water"}],"p2team":[{"name":"Aerodactyl","species":"aerodactyl","uuid":"ba914353-6edc-4daf-8060-04679231cf83","currentHealth":163,"status":"","statusDuration":-1,"item":"","ability":"Rock Head","moves":["Stone Edge","Take Down","Crunch","Iron Head"],"movesInfo":[{"pp":5,"maxPp":5},{"pp":20,"maxPp":20},{"pp":15,"maxPp":15},{"pp":15,"maxPp":15}],"nature":"Hardy","evs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"gender":"M","ivs":{"hp":0,"atk":0,"def":0,"spa":0,"spd":0,"spe":0},"level":59,"happiness":50,"pokeball":"Poke Ball","hpType":"","gigantamax":false,"dynamaxLevel":0,"teraType":"dragon"}],"score":[6,0],"inputLog":[">start {\"seed\":[50675,16993,62735,12917]}",">player p1 {\"name\":\"ffd78b55-4d57-4367-afe8-0a3da95af8e2\",\"team\":\"charizard||0a34e329-2efc-4408-bada-ca07d261421b|299||-1|Charizardite X|blaze|airslash,slash,firefang,dragonbreath|13/15,17/20,5/15,7/20|hasty|8,6,2,13,0,252|M|31,31,31,31,31,31||100|60,masterball,,,0,fire,]sentret||36ac142d-9728-4a24-85cf-7c259c81d771|42||-1||keeneye|quickattack,defensecurl,foresight,scratch|30/30,40/40,40/40,35/35|lax|0,0,0,0,0,0|F|23,23,4,21,5,30||17|75,masterball,,,0,normal,]houndour||56f61756-493d-4298-bfbf-3963b0cc062d|76||-1||flashfire|firefang,beatup,odorsleuth,bite|15/15,10/10,40/40,25/25|modest|0,0,0,0,0,0|M|26,31,11,5,10,16||31|0,masterball,,,0,dark,]tetoeon||6e85214d-d358-4eba-89f7-938905af2e6a|33||-1||owntempo|quickattack,sandattack,takedown,tailwhip|30/30,15/15,20/20,30/30|bashful|0,0,0,0,0,0|M|14,30,22,19,30,16||10|50,masterball,,,0,normal,]tetoeon||23e0ae2c-b987-4add-b6cf-d83f9fa9e400|33||-1||owntempo|quickattack,sandattack,covet,growl|30/30,15/15,25/25,40/40|bashful|0,0,0,0,0,0|M|12,18,27,14,5,27|S|10|50,masterball,,,0,normal,]manaphy||be8f5d71-4f90-42cc-bd52-c8d3c4087e15|13||-1||hydration|watergun,heartswap,watersport,bubble|25/25,10/10,15/15,30/30|brave|0,0,0,0,0,0|N|17,14,20,21,15,8||1|50,masterball,,,0,water,\"}",">player p2 {\"name\":\"8d1d7e1a-b20b-47a5-b31e-090b3ebd930a\",\"team\":\"aerodactyl||ba914353-6edc-4daf-8060-04679231cf83|163||-1||rockhead|stoneedge,takedown,crunch,ironhead|5/5,20/20,15/15,15/15|hardy|0,0,0,0,0,0|M|0,0,0,0,0,0||59|50,pokeball,,,0,dragon,\"}",">p1 move dragonbreath mega",">p2 move stoneedge"]}
+
