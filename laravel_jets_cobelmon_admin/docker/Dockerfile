@@ -1,12 +1,12 @@
 FROM php:8.2-cli
 
-# Instalar dependencias del sistema
+# Instalar dependencias del sistema necesarias
 RUN apt-get update && apt-get install -y \
     git unzip curl libzip-dev libpng-dev libonig-dev libxml2-dev \
-    zip libcurl4-openssl-dev libssl-dev gnupg2 \
-    && docker-php-ext-install pdo pdo_mysql zip\
-    && pecl install redis \
-    && docker-php-ext-enable redis
+    zip libcurl4-openssl-dev libssl-dev gnupg2 pkg-config libicu-dev \
+    && docker-php-ext-install pdo pdo_mysql zip \
+    && pecl install redis mongodb \
+    && docker-php-ext-enable redis mongodb
 
 # Instalar Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer

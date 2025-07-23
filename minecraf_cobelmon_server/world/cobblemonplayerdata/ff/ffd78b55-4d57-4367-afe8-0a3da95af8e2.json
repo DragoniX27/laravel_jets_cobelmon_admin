@@ -8,7 +8,7 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 2,
+    "totalCaptureCount": 4,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
@@ -19,9 +19,10 @@
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "normal": 1,
+      "normal": 2,
       "dragon": 1,
-      "ghost": 1
+      "ghost": 1,
+      "electric": 1
     },
     "totalDefeatedCounts": {},
     "aspectsCollected": {
@@ -30,6 +31,12 @@
       ],
       "cobblemon:dragapult": [
         "male"
+      ],
+      "cobblemon:mareep": [
+        "male"
+      ],
+      "cobblemon:bouffalant": [
+        "female"
       ]
     }
   }
