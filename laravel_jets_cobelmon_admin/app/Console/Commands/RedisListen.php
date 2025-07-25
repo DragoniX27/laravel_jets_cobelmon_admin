@@ -43,7 +43,7 @@ class RedisListen extends Command
                         }
 
                         match ($channel) {
-                            'cobblemon.pokemon_captured' => event(new PokemonCapturedEvent($data)),
+                            //'cobblemon.pokemon_captured' => event(new PokemonCapturedEvent($data)),
                             //'cobblemon.pokemon_evolved' => event(new PokemonEvolvedEvent($data)),
                             'cobblemon.syncPlayer' => event(new TrainerSyncEvent($data)),
                             // agrega más eventos aquí

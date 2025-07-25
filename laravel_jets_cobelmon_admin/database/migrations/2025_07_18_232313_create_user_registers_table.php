@@ -14,13 +14,15 @@ return new class extends Migration
         Schema::create('user_registers', function (Blueprint $table) {
             $table->id();
             $table->string('username')->unique()->nullable()->default(null);
-            $table->string('email')->unique()->nullable()->default(null);
             $table->string('username_lower')->nullable()->default(null);
-            $table->timestamp('email_verified_at')->nullable();
+            $table->string('email')->unique()->nullable()->default(null);
+            $table->string('phone')->nullable()->default(null);
             $table->string('password')->nullable()->default(null);
-            $table->string('profile_photo_path', 2048)->nullable();
             $table->foreignId('id_pk_fav')->constrained('pokemon')->onDelete('cascade');
             $table->foreignId('id_pk2_fav')->constrained('pokemon')->onDelete('cascade');
+            $table->string('lvl_minecraft')->unique()->nullable()->default(null);
+            $table->string('lvl_pokemon')->unique()->nullable()->default(null);
+            $table->mediumText('description')->nullable();
             $table->timestamps();
         });
     }

@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('player_sessions', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->dateTime('start_at', precision: 0);
             $table->dateTime('end_at', precision: 0);
         });

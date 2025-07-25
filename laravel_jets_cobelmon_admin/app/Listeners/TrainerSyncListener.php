@@ -5,8 +5,9 @@ namespace App\Listeners;
 use App\Events\TrainerSyncEvent;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use App\Models\PokemonCapture;
+use App\Models\PlayerSession;
 use App\Models\User;
+use Carbon\Carbon;
 
 class TrainerSyncListener
 {
@@ -25,29 +26,34 @@ class TrainerSyncListener
     {
         $trainer = User::select('id')->where('uuid', $event->uuid)->first();
 
-        if(!empty($event->pokemons) && !empty($trainer)){
-            foreach ($event->pokemons as $pokemon) {
-                PokemonCapture::updateOrCreate(
-                [
-                    'uuid' => $pokemon['pokemon_uuid'],
-                ],
-                [
-                    'uuid' => $pokemon['pokemon_uuid'],
-                    'species' => $pokemon['pokemon_species'],
-                    'species_id' => $pokemon['pokemon_species_id'],
-                    'shiny' => filter_var($pokemon['pokemon_shiny'], FILTER_VALIDATE_BOOLEAN),
-                    'nickname' => $pokemon['pokemon_nickname'],
-                    'gender' => $pokemon['pokemon_gender'],
-                    'form' => $pokemon['pokemon_form'],
-                    'captured_ball' => $pokemon['pokemon_capturedBall'],
-                    'original_trainer_uuid' => $pokemon['pokemon_originalTrainer'],
-                    'is_legendary' => $pokemon['pokemon_is_legendary'],
-                    'types' => json_encode($pokemon['pokemon_types']),
-                    'level' => $pokemon['pokemon_level'],
-                    'user_id' => $trainer->id,
-                    'in_team' => $pokemon['pokemon_team'],
-                ]);
-            }
+        if (!$trainer) {
+            \Log::warning("TrainerSyncListener: Usuario con UUID {$event->uuid} no encontrado.");
+            return;
+        }
+
+        // Obtener el inicio del día y la hora actual
+        $now = Carbon::now();
+        $startOfDay = $now->copy()->startOfDay();
+        $tenMinutesAgo = $now->copy()->subMinutes(10);
+
+        // Consulta
+        $session = PlayerSession::where([
+                ['user_id', $trainer->id],
+                ['start_at', '>=', $startOfDay],
+                ['end_at', '>=', $tenMinutesAgo],
+                ['end_at', '<=', $now]
+            ])->first();
+
+        if(!empty($session)){
+            $session->update([
+                'end_at' => $now
+            ]);
+        }else{
+            PlayerSession::create([
+                'user_id' => $trainer->id,
+                'start_at' => $now,
+                'end_at' => $now
+            ]);
         }
     }
 }

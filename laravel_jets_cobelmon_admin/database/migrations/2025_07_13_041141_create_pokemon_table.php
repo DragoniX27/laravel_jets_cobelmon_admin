@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('pokemon', function (Blueprint $table) {
             $table->id();
+            $table->integer('pokedex_number')->nullable();
             $table->string('species');
             $table->json('forms')->nullable();
             $table->boolean('is_legendary')->default(false);

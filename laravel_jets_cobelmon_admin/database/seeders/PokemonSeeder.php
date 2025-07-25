@@ -35,6 +35,7 @@ class PokemonSeeder extends Seeder
                     }
                 }
                 Pokemon::create([
+                    'pokedex_number' => $speciesData['id'],
                     'species' => $species['name'],
                     'forms' => json_encode($forms),
                     'is_legendary' => ($speciesData['is_legendary'] || $speciesData['is_mythical']),

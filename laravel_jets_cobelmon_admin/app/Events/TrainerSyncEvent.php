@@ -15,15 +15,12 @@ class TrainerSyncEvent implements ShouldBroadcast
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     public string $uuid;
-    public array $pokemons;
-
     /**
      * Create a new event instance.
      */
     public function __construct(array $data)
     {
         $this->uuid = $data['uuid'];
-        $this->pokemons = $data['pokemons'] ?? [];  
     }
 
 
